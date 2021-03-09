@@ -7,7 +7,13 @@ export const sidePaddings: {[key in ComponentSize]: number} = {
 }
 
 export const heights: {[key in ComponentSize]: number} = {
-    large: 55,
+    large: 53,
     default: 45,
-    small: 35,
+    small: 31,
+}
+
+export const Widths: {[key in ComponentSize]: number} = {
+    large: 309,
+    default: 158,
+    small: 118,
 }

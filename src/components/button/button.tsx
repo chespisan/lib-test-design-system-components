@@ -5,12 +5,13 @@ import { ButtonProps } from "./types/button.type";
 
 
 const Button: React.ForwardRefRenderFunction<unknown, ButtonProps> = (props, ref) => {
-  const { as, children, className, disabled = false, href, icon, loading, onClick, size = 'default', type = 'primary', to } = props;
+  const { as, children, className, disabled = false, href, icon, loading, onClick, round = false, size = 'default', type = 'default', to } = props;
 
-  const styles = { innerType: type, size, disabled, withText: children !== null }
+  const styles = { innerType: type, size, disabled, withText: children !== null, round }
 
   return (
-    <StyledButton as='button'
+    <StyledButton 
+      as='button'
       type='button'
       onClick={onClick}
       ref={ref as React.MutableRefObject<HTMLButtonElement>}

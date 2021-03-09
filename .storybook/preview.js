@@ -5,4 +5,4 @@ export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
 }
 
-// addDecorator(themeDecorator);
+addDecorator(themeDecorator);

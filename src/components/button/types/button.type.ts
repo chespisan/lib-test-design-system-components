@@ -15,5 +15,5 @@ type CustomNodeProps = {
   to?: string;
 } & BaseButtonInterface;
 
-export type ButtonType = 'primary' | 'secondary' | 'success' | 'danger' ;
+export type ButtonType = 'default' | 'outlineOne' | 'outlineTwo' | 'success' | 'danger' ;
 export type ButtonProps = HTMLButtonProps & HTMLAnchorProps & CustomNodeProps;

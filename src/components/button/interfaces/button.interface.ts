@@ -9,5 +9,6 @@ export interface BaseButtonInterface {
   children?: ReactNode;
   className?: string;
   disabled?: boolean;
+  round?: boolean;
   loading?: boolean;
 }
