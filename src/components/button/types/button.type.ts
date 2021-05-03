@@ -1,6 +1,5 @@
-import { ElementType, MouseEventHandler } from 'react';
-import { BaseButtonInterface } from './../interfaces/button.interface';
-
+import { ElementType, MouseEventHandler } from "react";
+import { BaseButtonInterface } from "./../interfaces/button.interface";
 
 type HTMLButtonProps = {
   onClick?: MouseEventHandler<HTMLButtonElement>;
@@ -15,5 +14,12 @@ type CustomNodeProps = {
   to?: string;
 } & BaseButtonInterface;
 
-export type ButtonType = 'default' | 'outlineOne' | 'outlineTwo' | 'success' | 'danger' ;
 export type ButtonProps = HTMLButtonProps & HTMLAnchorProps & CustomNodeProps;
+
+export type ButtonType =
+  | "basic"
+  | "primary"
+  | "secondary"
+  | "accent"
+  | "warn"
+  | "disabled";

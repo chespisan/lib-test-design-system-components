@@ -1,5 +1,5 @@
-import { ElementType, ReactNode } from 'react';
-import { ComponentSize } from '../../../config/sizes';
+import { ElementType, ReactNode } from "react";
+import { ComponentSize } from "../../../config/sizes/types/componentSize.type";
 import { ButtonType } from "../types/button.type";
 
 export interface BaseButtonInterface {

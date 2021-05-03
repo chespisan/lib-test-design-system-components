@@ -1,35 +1,7 @@
-import React, { ElementType, MouseEventHandler, ReactNode } from 'react';
-import { ComponentSize } from '../../config/sizes';
-export declare type ButtonType = 'default' | 'danger' | 'ghost' | 'secondary';
-interface BaseButtonProps {
-    type?: ButtonType;
-    icon?: ElementType;
-    size?: ComponentSize;
-    className?: string;
-    children?: ReactNode;
-    disabled?: boolean;
-    loading?: boolean;
-}
-declare type HTMLButtonProps = {
-    onClick?: MouseEventHandler<HTMLButtonElement>;
-} & BaseButtonProps;
-/**
- * If href is supplied, button becomes an anchor link
- */
-declare type HTMLAnchorProps = {
-    href?: string;
-} & BaseButtonProps;
-/**
- * If `as` is supplied, button becomes a custom html node specified in `as`
- */
-declare type CustomNodeProps = {
-    as?: ElementType;
-    to?: string;
-} & BaseButtonProps;
-export declare type ButtonProps = HTMLButtonProps & HTMLAnchorProps & CustomNodeProps;
+import React from "react";
 declare const _default: React.ForwardRefExoticComponent<{
     onClick?: React.MouseEventHandler<HTMLButtonElement> | undefined;
-} & BaseButtonProps & {
+} & import("./interfaces/button.interface").BaseButtonInterface & {
     href?: string | undefined;
 } & {
     as?: React.ElementType<any> | undefined;

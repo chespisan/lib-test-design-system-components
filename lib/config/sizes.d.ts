@@ -5,4 +5,7 @@ export declare const sidePaddings: {
 export declare const heights: {
     [key in ComponentSize]: number;
 };
+export declare const Widths: {
+    [key in ComponentSize]: number;
+};
 //# sourceMappingURL=sizes.d.ts.map
