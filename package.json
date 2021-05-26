@@ -1,12 +1,13 @@
 {
   "name": "lib-test-design-system-components",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "private": false,
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "dependencies": {
+    "node-sass": "^4.14.1",
     "styled-components": "^5.2.1"
   },
   "scripts": {
@@ -65,5 +66,19 @@
     "react-scripts": "4.0.3",
     "typescript": "^4.2.3",
     "web-vitals": "^1.1.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chespisan/lib-test-design-system-components.git"
+  },
+  "author": "Sergio Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chespisan/lib-test-design-system-components/issues"
+  },
+  "homepage": "https://github.com/chespisan/lib-test-design-system-components#readme"
 }

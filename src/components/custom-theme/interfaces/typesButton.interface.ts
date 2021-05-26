@@ -5,6 +5,7 @@ export interface typesButtonInterface {
     contrast: string;
     shade: string;
     tint: string;
+    shadeTint: string;
   };
   primary: {
     regular: string;
@@ -12,6 +13,7 @@ export interface typesButtonInterface {
     contrast: string;
     shade: string;
     tint: string;
+    shadeTint: string;
   };
   secondary: {
     regular: string;
@@ -19,6 +21,7 @@ export interface typesButtonInterface {
     contrast: string;
     shade: string;
     tint: string;
+    shadeTint: string;
   };
   accent: {
     regular: string;
@@ -26,6 +29,7 @@ export interface typesButtonInterface {
     contrast: string;
     shade: string;
     tint: string;
+    shadeTint: string;
   };
   disabled: {
     regular: string;
@@ -33,6 +37,7 @@ export interface typesButtonInterface {
     contrast: string;
     shade: string;
     tint: string;
+    shadeTint: string;
   };
   warn: {
     regular: string;
@@ -40,5 +45,6 @@ export interface typesButtonInterface {
     contrast: string;
     shade: string;
     tint: string;
+    shadeTint: string;
   };
 }

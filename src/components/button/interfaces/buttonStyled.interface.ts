@@ -1,8 +1,11 @@
-import { ComponentSize } from "../../../config/sizes/types/componentSize.type";
-import { ButtonType } from "../types/button.type";
+import { ComponentSize } from '../../../config/sizes/types/componentSize.type'
+import { ButtonColor } from '../types/ButtonColor.type'
+import { ButtonMode } from '../types/buttonMode.type'
 
 export interface StyledButtonProps {
-  innerType: ButtonType;
-  size: ComponentSize;
-  withText: boolean;
+  innerType: ButtonColor
+  size: ComponentSize
+  disabled: boolean
+  withText: boolean
+  mode: ButtonMode
 }

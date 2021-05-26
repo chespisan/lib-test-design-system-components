@@ -1,0 +1,20 @@
+.container-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+
+  .box {
+    border: solid thin rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 40px;
+    width: 130px;
+
+    p {
+      margin: 0;
+      margin-top: -22px;
+    }
+  }
+}
