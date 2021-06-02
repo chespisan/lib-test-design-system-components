@@ -1,1 +1,1 @@
-export type ButtonMode = "mobile" | "desktop";
+export type ButtonMode = 'mobile' | 'desktop'

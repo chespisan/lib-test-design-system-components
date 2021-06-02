@@ -1,1 +1,1 @@
-export type ButtonColor = "basic" | "primary" | "secondary" | "accent" | "warn";
+export type ButtonColor = 'basic' | 'primary' | 'secondary' | 'accent' | 'warn'

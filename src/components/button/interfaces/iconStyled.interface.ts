@@ -1,5 +1,5 @@
-import { ButtonColor } from "../types/ButtonColor.type";
+import { ButtonColor } from '../types/buttonColor.type'
 
 export interface StyledIconProps {
-  innerType: ButtonColor;
+  innerType: ButtonColor
 }

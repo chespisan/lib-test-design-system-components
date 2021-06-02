@@ -1,5 +1,5 @@
 import { ComponentSize } from '../../../config/sizes/types/componentSize.type'
-import { ButtonColor } from '../types/ButtonColor.type'
+import { ButtonColor } from '../types/buttonColor.type'
 import { ButtonMode } from '../types/buttonMode.type'
 
 export interface StyledButtonProps {
